@@ -230,6 +230,6 @@ print(a*~a)
 s = matrix([[1,2,3],[4,3,5],[54,3,2]])
 print(s)
 print(s.mminor([1],[2]))
-m = matrix([[0,0,0],[0,0,0]])
+m = matrix([[0,0,1],[0,0,0]])
 print(m.rank())
 
